@@ -110,3 +110,11 @@ if __name__ == "__main__":
     # reasonable defaults for a laptop
     # set draw_output to True to use PIL to draw an image
     calc_pure_python(draw_output=True, desired_width=1000, max_iterations=300)
+
+
+from util import *
+
+
+def test1():
+    timeit(calc_pure_python(draw_output=True, desired_width=1000, max_iterations=300)
+
