@@ -1,0 +1,4 @@
+To have launchd start rabbitmq now and restart at login:
+  brew services start rabbitmq
+or just run
+  /usr/local/sbin/rabbitmq-server
