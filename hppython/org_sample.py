@@ -112,9 +112,9 @@ if __name__ == "__main__":
     calc_pure_python(draw_output=True, desired_width=1000, max_iterations=300)
 
 
-from util import *
+# from util import *
 
 
-def test1():
-    timeit(calc_pure_python(draw_output=True, desired_width=1000, max_iterations=300)
+# def test1():
+#     timeit(calc_pure_python(draw_output=True, desired_width=1000, max_iterations=300)
 
